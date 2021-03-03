@@ -5,6 +5,10 @@ date: "March/2/2021"
 output:
   html_document: default
 ---
+```{r global_options}
+knitr::opts_chunk$set(fig.path='Figs/')
+```
+
 # Cleaning the data base
 ```{r, warning=FALSE, message=FALSE}
 #as_tibble(carros)
