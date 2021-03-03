@@ -2,8 +2,9 @@
 title: "Used Cars in the USA Market 2021"
 author: "Alejandra Enriquez | ertlalejandra@gmail.com"
 date: "March/2/2021"
-output:
-  html_document: default
+output: rmarkdown::github_document
+
+
 ---
 ```{r global_options}
 knitr::opts_chunk$set(fig.path='Figs/')
